@@ -5,8 +5,20 @@
 
 <https://api.mcbe.tokyo/mrpm/>  こちらを利用する場合 music_list.ymlには  
   
- `music.(.oggを抜いた名前)` を書くことのなります
+ `music.(.oggを抜いた名前)` を書くことになります
  
  例: 
    
  test.ogg => music.test
+ 
+ 
+music_list.yml  
+  
+```yml
+---
+music.test:
+  button: §aテスト
+music.sample:
+  button: 複数の場合
+...
+```
