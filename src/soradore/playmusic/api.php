@@ -21,7 +21,7 @@ class api
         if(self::$now_play != null){
             self::stopMusic(self::$now_play);
         }
-        var_dump(self::$now_play, $name);
+        //var_dump(self::$now_play, $name);
         if(self::$now_play == $name){
             self::stopMusic();
             self::$now_play = null;
