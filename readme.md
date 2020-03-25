@@ -33,3 +33,4 @@ use soradore\playmusic\api;
 api::playMusic("music name");
 api::stopMusic("music name");
 api::stopMusic();
+```
