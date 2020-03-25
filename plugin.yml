@@ -1,0 +1,9 @@
+name: PlayMusic
+description: "play music"
+main: soradore\playmusic\main
+api: [3.11.0]
+version: 1.0.0
+author: soradore
+commands:
+  play:
+    description: "play music"
